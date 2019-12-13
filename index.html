@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    #formm{
+        width: 200px;
+        height: 150px;
+        border: 1px solid black;
+      }
+     #calcit{
+     border: 1px solid black;
+     margin-left: 6px;
+     }
+    </style>
+</head>
+
+<body>
+  <div id="formm">
+
+
+    <form>
+      Value 1: <input type="text" id="Value1"/>
+      Value 2: <input type="text" id="Value2" />
+      Operator:
+      <select id="Operator">
+        <option value="add">+</option>
+        <option value="sub">-</option>
+        <option value="div">/</option>
+        <option value="mul">*</option>
+
+      </select>
+
+      <button type="button" onclick="calc()">Calculate</button>
+
+    </form>
+
+    <div class="result">
+     Result:
+    </div>
+  </div>
+</body>
+<script src="index.js" charset="utf-8"></script>
+
+</html>
